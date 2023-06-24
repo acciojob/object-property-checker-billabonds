@@ -4,15 +4,15 @@ function hasKey(key) {
   //   write your code here
 
 	if(sampleObject[key]){
-	console.log(true);
+	  return true;
 	}
 	
 	else{
-	console.log(false);
+	return false;
 	}
  
 }
 
 // Do not change the code below
 const key = prompt("Enter Key.");
-// alert(hasKey(key));
+alert(hasKey(key));
